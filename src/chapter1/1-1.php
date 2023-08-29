@@ -7,6 +7,8 @@
 </head>
 <body>
   <?php
+  // echoとprintは同じ
+  // 値を出力するもの（HTMLファイルに書き込む）
     echo 'Hello World';
   ?>
 </body>
