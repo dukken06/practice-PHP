@@ -7,8 +7,10 @@
 </head>
 <body>
   <?php
+    // string型（文字列）
     echo '文字列';
     echo '<br>';
+    // int型（整数）
     echo 3 + 5;
     echo '<br>';
     $x = 'こんにちは、'.'チャンネル登録してね';
@@ -17,10 +19,22 @@
     $x = '最'.'&'.'高';
     echo $x;
     echo '<br>';
+    // float型（小数）
     $x = 0.1 + 0.2 - 0.5;
     echo $x;
     echo '<br>';
     echo 100 - 99.6;
+    // bool型（論理値）
+    $t = TRUE;
+    $f = FALSE;
+    // 論理和
+    $x = TRUE || FALSE;
+    $y = TRUE or FALSE;
+    // 論理積
+    $x = TRUE && FALSE;
+    $y = TRUE and FALSE;
+    // 否定
+    $z = ! FALSE;
   ?>
 </body>
 </html>
