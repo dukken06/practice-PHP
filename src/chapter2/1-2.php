@@ -22,8 +22,7 @@
     echo 'ここからは第二部<br>';
     // プログラムは上から順に実行される
     $jojo = 'ジョセフ・ジョースター';
-    // 出力 => ジョセフ・ジョースター
-    echo $jojo;
+    echo $jojo; // 出力 => ジョセフ・ジョースター
     echo '<br>';
     echo $jonathan;
     echo '<br>';
